@@ -33,48 +33,14 @@ body
     padding: 10px 0;
 }
 
-#social-wrapper {
-    text-align: center;
-}
-
-
-.social-wrapper 
-{
-    text-align: center;
-}
-
-    .social-wrapper ul li 
-    {
-        display: inline;
-        margin: 0 5px;
-    }
-
-.twitter-icon,
-.linkedin-icon,
-.youtube-icon {
-    margin-top: .625em;
-    width: 40px;
-    height: 40px;
-    opacity: .6;
-    border-radius: 25px;
-}
-
-    .twitter-icon:hover,
-    .linkedin-icon:hover,
-    .youtube-icon:hover
-    {
-        opacity: 1.0;
-
-    }
 
 .footer-nav p 
 {
     text-align: center;
 }
 
-/* Center the loader */
 #loader {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     z-index: 1;
@@ -140,7 +106,6 @@ body
         opacity: 1
     }
 }
-
 #myDiv {
     display: none;
     text-align: center;
